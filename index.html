@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pirtak Industrial Minerals | Calcium Carbonate & Ores</title>
+    <title>پیرتاک مواد معدنی صنعتی | کربنات کلسیم و سنگ‌های معدنی</title>
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <!-- Top Bar -->
     <div class="topbar">
         <div class="container">
-            <div class="contact-info">
-                <span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                    +98 21 1234 5678
-                </span>
-                <span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
-                    info@pirtak-minerals.ir
-                </span>
-            </div>
-            <div class="topbar-right">
-                <span>📍 Tehran, Iran</span>
-                <div class="social-links">
-                    <a href="#" aria-label="LinkedIn">in</a>
-                    <a href="#" aria-label="Instagram">📷</a>
-                    <a href="#" aria-label="Aparat">▶</a>
-                </div>
-            </div>
+            <span>📞 ۰۲۱-۱۲۳۴۵۶۷۸ | ✉️ info@pirtak-minerals.ir</span>
+            <span>تهران، ایران</span>
         </div>
     </div>
 
@@ -39,183 +24,139 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <a href="#" class="logo">
-                <div class="logo-icon-wrap">
-                    <div class="logo-mountain"></div>
-                </div>
-                <div class="logo-text">
-                    Pirtak
-                    <span class="persian">پیرتاک</span>
-                    <span class="sub">Industrial Minerals</span>
-                </div>
+                <div class="logo-icon-wrap"></div>
+                <div class="logo-text">Pirtak</div>
             </a>
-            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+            <button class="hamburger" id="hamburger">
                 <span></span><span></span><span></span>
             </button>
-            <div class="mobile-overlay" id="mobileOverlay"></div>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#about" class="active">About Us</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#industries">Industries</a></li>
-                <li><a href="#subsidiaries">Subsidiaries & Partners</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#careers">Careers</a></li>
-                <li><a href="#sustainability">Sustainability</a></li>
-                <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+                <li><a href="#about">درباره ما</a></li>
+                <li><a href="#products">محصولات</a></li>
+                <li><a href="#industries">صنایع</a></li>
+                <li><a href="#subsidiaries">شرکت‌های تابعه و شرکا</a></li>
+                <li><a href="#projects">پروژه‌ها</a></li>
+                <li><a href="#careers">فرصت‌های شغلی</a></li>
+                <li><a href="#sustainability">توسعه پایدار</a></li>
+                <li><a href="#contact" class="nav-cta">تماس با ما</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Slider -->
     <section class="hero-slider" id="heroSlider">
-        <div class="slide active" data-index="0">
-            <img class="slide-bg" src="images/calcium-carbonate.jpg" alt="Calcium carbonate quarry" loading="eager" onerror="this.style.display='none';this.parentElement.querySelector('.fallback-bg').style.display='block';">
-            <div class="fallback-bg" style="display:none;position:absolute;inset:0;background:linear-gradient(135deg,#1b2d45 0%,#2c4a3e 40%,#5c6b4f 100%);"></div>
+        <div class="slide active">
+            <img class="slide-bg" src="https://images.unsplash.com/photo-1581093458791-9d5cc4b3c1cf?w=1920&h=900&fit=crop" alt="معدن">
             <div class="overlay"></div>
             <div class="slide-content">
-                <span class="slide-tag">Premium Quality</span>
-                <h2>Pirtak: Excellence in<br>Calcium Carbonate Mining</h2>
-                <p>From the heart of Iran's mineral-rich zones, we supply high-purity calcium carbonate to industries worldwide.</p>
+                <span class="slide-tag">کیفیت برتر</span>
+                <h2>پیرتاک: برتری در استخراج کربنات کلسیم</h2>
+                <p>از مناطق غنی معدنی ایران به بازارهای جهانی</p>
             </div>
         </div>
-        <div class="slide" data-index="1">
-            <img class="slide-bg" src="images/sustainability.jpg" alt="Sustainable mining" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.fallback-bg').style.display='block';">
-            <div class="fallback-bg" style="display:none;position:absolute;inset:0;background:linear-gradient(135deg,#1a3a2a 0%,#2d5a3f 40%,#4a7a5c 100%);"></div>
+        <div class="slide">
+            <img class="slide-bg" src="https://images.unsplash.com/photo-1621111848501-8d3634f823e9?w=1920&h=900&fit=crop" alt="استخراج پایدار">
             <div class="overlay"></div>
             <div class="slide-content">
-                <span class="slide-tag">Responsible Mining</span>
-                <h2>Sustainable Operations<br>& Environmental Care</h2>
-                <p>We invest in eco-friendly technologies to preserve Iran's natural heritage while powering global industries.</p>
+                <span class="slide-tag">معدنکاری پایدار</span>
+                <h2>استخراج مسئولانه</h2>
+                <p>حفظ محیط زیست در کنار تأمین نیاز صنایع</p>
             </div>
         </div>
-        <div class="slide" data-index="2">
-            <img class="slide-bg" src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1920&h=900&fit=crop&crop=center" alt="Industrial supply chain" loading="lazy" onerror="this.style.display='none';this.parentElement.querySelector('.fallback-bg').style.display='block';">
-            <div class="fallback-bg" style="display:none;position:absolute;inset:0;background:linear-gradient(135deg,#1c2331 0%,#2e3b4e 40%,#4a5568 100%);"></div>
+        <div class="slide">
+            <img class="slide-bg" src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1920&h=900&fit=crop" alt="بازار جهانی">
             <div class="overlay"></div>
             <div class="slide-content">
-                <span class="slide-tag">Global Reach</span>
-                <h2>Trusted Partner<br>Across Continents</h2>
-                <p>Our minerals reach markets from the Middle East to Asia and Europe, with reliable logistics and consistent quality.</p>
+                <span class="slide-tag">گستره جهانی</span>
+                <h2>شریکی مطمئن در سراسر جهان</h2>
+                <p>تأمین پایدار در قاره‌های مختلف</p>
             </div>
         </div>
-
-        <button class="slider-arrow prev" id="prevSlide" aria-label="Previous slide">◂</button>
-        <button class="slider-arrow next" id="nextSlide" aria-label="Next slide">▸</button>
-        <div class="slider-dots" id="sliderDots">
-            <span class="dot active" data-index="0"></span>
-            <span class="dot" data-index="1"></span>
-            <span class="dot" data-index="2"></span>
+        <button class="slider-arrow prev">◂</button>
+        <button class="slider-arrow next">▸</button>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about-section section" id="about">
+    <section class="section about-section" id="about" style="background: var(--off-white);">
         <div class="container">
             <div class="about-grid">
-                <div class="about-image-wrapper">
-                    <img src="images/Intro.jpg" alt="Pirtak processing facility" loading="lazy" onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#d5cfc7,#c4b8a8)';this.parentElement.style.minHeight='350px';">
-                    <div class="experience-badge">
-                        <div class="number">28+</div>
-                        <div class="label">Years of<br>Experience</div>
-                    </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1578319439584-104c94d37305?w=700&h=500&fit=crop" 
+                         style="width:100%; border-radius:var(--radius-xl); box-shadow:var(--shadow-xl);" alt="تأسیسات پیرتاک">
                 </div>
-                <div class="about-text">
-                    <span class="section-label">About Pirtak</span>
-                    <h2 class="section-title">Iran's Trusted Source for Calcium Carbonate & Industrial Ores</h2>
+                <div>
+                    <span class="section-label">تاریخچه شرکت</span>
+                    <h2 class="section-title">پیرتاک و صبا بهپر ایرانیان</h2>
                     <div class="divider"></div>
-                    <p>
-                        <strong>Pirtak Industrial Minerals</strong> is a leading Iranian mining and processing company specializing in high-purity 
-                        <span class="highlight">calcium carbonate</span>, limestone, dolomite, and related industrial minerals. 
-                        With strategic quarry sites across Iran, we deliver consistent quality to domestic and international clients.
-                    </p>
-                    <p style="margin-top:12px;">
-                        Our subsidiary, <strong>Sababehpar</strong>, focuses on micronized powder production and advanced mineral processing, 
-                        ensuring that every shipment meets the exact specifications of industries like plastics, paint, construction, and agriculture.
-                    </p>
-                    <div class="about-features">
-                        <div class="about-feature">
-                            <span class="check-icon">✓</span>
-                            <span>High-purity calcium carbonate (98%+ CaCO₃)</span>
-                        </div>
-                        <div class="about-feature">
-                            <span class="check-icon">✓</span>
-                            <span>Advanced processing at Sababehpar plant</span>
-                        </div>
-                        <div class="about-feature">
-                            <span class="check-icon">✓</span>
-                            <span>ISO 9001 certified operations</span>
-                        </div>
-                        <div class="about-feature">
-                            <span class="check-icon">✓</span>
-                            <span>Reliable export to 10+ countries</span>
-                        </div>
+                    <p>شرکت معدنی <strong>پیرتاک</strong> فعالیت خود را در سال <strong>۱۳۷۲</strong> با هدف اکتشاف، استخراج و فرآوری مواد معدنی آغاز نمود.</p>
+                    <p style="margin-top:12px;">از مهم‌ترین معادن، <strong>معادن شاقز</strong> الیگودرز می‌باشد. در سال <strong>۱۳۹۳</strong> شرکت <strong>صبا بهپر ایرانیان</strong> برای فرآوری سنگ لاشه کربنات کلسیم کارگاه شماره ۸ تأسیس شد.</p>
+                    <div class="about-features" style="margin-top:15px;">
+                        <div class="about-feature"><span class="check-icon">✓</span> <span>ظرفیت سالانه ۳۰,۰۰۰ تن پودر کربنات کلسیم</span></div>
+                        <div class="about-feature"><span class="check-icon">✓</span> <span>دانه‌بندی از مش ۴۰۰ (۳۷ میکرون) تا مش ۲۵۰۰ (۵ میکرون)</span></div>
+                        <div class="about-feature"><span class="check-icon">✓</span> <span>کیفیت منحصربه‌فرد: استخراج فقط از کارگاه شماره ۸</span></div>
+                        <div class="about-feature"><span class="check-icon">✓</span> <span>مالکیت کامل معادن شاقز – بدون نیاز به سنگ متفرقه</span></div>
                     </div>
+                    <p style="margin-top:15px;"><em>مزیت رقابتی:</em> یکنواختی و خلوص بالا به دلیل مالکیت اختصاصی معدن.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- KPI Section -->
-    <section class="kpi-section" id="kpiSection">
+    <section class="kpi-section">
         <div class="container">
             <div class="kpi-grid">
                 <div class="kpi-card">
-                    <div class="kpi-icon">🏭</div>
-                    <div class="kpi-number" data-target="1.8" data-decimals="1">0</div>
-                    <span class="kpi-suffix">M+</span>
-                    <div class="kpi-label">Tons Mined Annually</div>
+                    <div class="kpi-number" data-target="30000">0</div>
+                    <div class="kpi-label">ظرفیت تولید سالانه (تن)</div>
                 </div>
                 <div class="kpi-card">
-                    <div class="kpi-icon">🌍</div>
-                    <div class="kpi-number" data-target="12" data-decimals="0">0</div>
-                    <span class="kpi-suffix">+</span>
-                    <div class="kpi-label">Export Destinations</div>
+                    <div class="kpi-number" data-target="2500">0</div>
+                    <div class="kpi-label">ریزترین مش (۲۵۰۰)</div>
                 </div>
                 <div class="kpi-card">
-                    <div class="kpi-icon">🤝</div>
-                    <div class="kpi-number" data-target="150" data-decimals="0">0</div>
-                    <span class="kpi-suffix">+</span>
-                    <div class="kpi-label">Active Clients</div>
+                    <div class="kpi-number" data-target="400">0</div>
+                    <div class="kpi-label">درشت‌ترین مش (۴۰۰)</div>
                 </div>
                 <div class="kpi-card">
-                    <div class="kpi-icon">⛏️</div>
-                    <div class="kpi-number" data-target="6" data-decimals="0">0</div>
-                    <span class="kpi-suffix"></span>
-                    <div class="kpi-label">Mining Sites</div>
+                    <div class="kpi-number" data-target="8">0</div>
+                    <div class="kpi-label">شماره کارگاه (بهترین کیفیت)</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Products Teaser -->
-    <section class="products-teaser section" id="products">
+    <!-- Products Section -->
+    <section class="section" id="products">
         <div class="container">
-            <span class="section-label">Our Products</span>
-            <h2 class="section-title">Premium Minerals for Every Industry</h2>
+            <span class="section-label">محصولات</span>
+            <h2 class="section-title">پودر کربنات کلسیم</h2>
             <div class="divider"></div>
-            <p class="section-subtitle">From raw ore to micronized powders, Pirtak and Sababehpar deliver exactly what your production demands.</p>
             <div class="products-grid">
                 <div class="product-card">
-                    <img class="product-card-img" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=500&h=300&fit=crop&crop=center" alt="Calcium Carbonate Powder" loading="lazy" onerror="this.style.background='#e8dfd2';this.style.minHeight='180px';this.style.display='block';">
+                    <img class="product-card-img" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=500&h=300" alt="میکرونیزه">
                     <div class="product-card-body">
-                        <h4>Calcium Carbonate (GCC & PCC)</h4>
-                        <p>High-purity ground and precipitated calcium carbonate for plastics, paints, paper, and pharmaceuticals.</p>
-                        <a href="#" class="learn-more">Learn more →</a>
+                        <h4>کربنات کلسیم میکرونیزه</h4>
+                        <p>از مش ۴۰۰ تا ۲۵۰۰، تولید کارخانه صبا بهپر</p>
                     </div>
                 </div>
                 <div class="product-card">
-                    <img class="product-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&h=300&fit=crop&crop=center" alt="Limestone & Dolomite" loading="lazy" onerror="this.style.background='#e8dfd2';this.style.minHeight='180px';this.style.display='block';">
+                    <img class="product-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&h=300" alt="ساختمانی">
                     <div class="product-card-body">
-                        <h4>Limestone & Dolomite</h4>
-                        <p>Versatile industrial minerals for construction, steel manufacturing, glass production, and water treatment.</p>
-                        <a href="#" class="learn-more">Learn more →</a>
+                        <h4>گرید ساختمانی</h4>
+                        <p>سنگدانه‌های آهکی برای پروژه‌های عمرانی</p>
                     </div>
                 </div>
                 <div class="product-card">
-                    <img class="product-card-img" src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=500&h=300&fit=crop&crop=center" alt="Specialty Minerals" loading="lazy" onerror="this.style.background='#e8dfd2';this.style.minHeight='180px';this.style.display='block';">
+                    <img class="product-card-img" src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=500&h=300" alt="ترکیبات خاص">
                     <div class="product-card-body">
-                        <h4>Specialty Mineral Blends</h4>
-                        <p>Custom formulations for adhesives, rubber, animal feed, and food-grade applications – made at Sababehpar.</p>
-                        <a href="#" class="learn-more">Learn more →</a>
+                        <h4>ترکیبات خاص</h4>
+                        <p>فرمول‌های سفارشی برای چسب، لاستیک، خوراک دام</p>
                     </div>
                 </div>
             </div>
@@ -227,41 +168,41 @@
         <div class="container">
             <div class="footer-grid">
                 <div>
-                    <h5>Pirtak Industrial Minerals</h5>
-                    <p>Your trusted Persian partner for premium calcium carbonate and industrial ores. Quality, consistency, and reliability since 1998.</p>
-                    <p style="margin-top:10px;" class="persian-text" lang="fa">پیرتاک؛ تأمین‌کننده برتر کربنات کلسیم و مواد معدنی صنعتی</p>
+                    <h5>پیرتاک مواد معدنی صنعتی</h5>
+                    <p>تأمین‌کننده برتر کربنات کلسیم و سنگ‌های معدنی ایران از سال ۱۳۷۲</p>
                 </div>
                 <div>
-                    <h5>Quick Links</h5>
+                    <h5>شرکت تابعه</h5>
+                    <p><strong>صبا بهپر ایرانیان</strong></p>
+                    <p style="font-size:0.85rem; margin-top:8px;">
+                        تهران، خیابان شریعتی، خیابان حقوقی، پلاک ۶۰، طبقه پنجم<br>
+                        تلفن: ۷۷۶۱۴۸۷۸ - ۷۷۶۱۵۹۸۵<br>
+                        همراه: ۰۹۱۲۳۹۵۶۶۴۷<br>
+                        فکس: ۷۷۵۰۱۰۵۵<br>
+                        ایمیل: info@sababehpariranian.com
+                    </p>
+                </div>
+                <div>
+                    <h5>دسترسی سریع</h5>
                     <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#industries">Industries</a></li>
-                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#products">محصولات</a></li>
+                        <li><a href="#sustainability">توسعه پایدار</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h5>More</h5>
-                    <ul>
-                        <li><a href="#careers">Careers</a></li>
-                        <li><a href="#sustainability">Sustainability</a></li>
-                        <li><a href="#subsidiaries">Subsidiaries (Sababehpar)</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>Contact</h5>
-                    <p>📍 123 Mineral St., Tehran, Iran</p>
-                    <p>📞 +98 21 1234 5678</p>
+                    <h5>تماس با ما</h5>
+                    <p>📞 ۰۲۱-۱۲۳۴۵۶۷۸</p>
                     <p>✉️ info@pirtak-minerals.ir</p>
-                    <p class="persian-text" lang="fa" style="margin-top:6px;">تهران، خیابان معدن، پلاک ۱۲۳</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Pirtak Industrial Minerals. All rights reserved. | A Sababehpar Group Company</p>
+                © ۲۰۲۶ پیرتاک مواد معدنی صنعتی – یکی از شرکت‌های گروه صبا بهپر
             </div>
         </div>
     </footer>
-    <script src="scrtipt.js"></script>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
 </body>
 </html>
