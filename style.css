@@ -483,7 +483,7 @@ html[dir="rtl"] .slider-arrow.next {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 884px) {
     .about-grid,
     .footer-grid {
         grid-template-columns: 1fr;
@@ -518,5 +518,22 @@ html[dir="rtl"] .slider-arrow.next {
     }
     .nav-links.open {
         right: 0;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 885px) and (max-width: 1024px) {
+    .nav-links {
+        gap: 0.8rem;               /* reduce space between items */
+    }
+
+    .nav-links a {
+        font-size: 0.7rem;       /* slightly smaller text */
+        padding: 0.5rem 0.3rem;  /* tighter clickable area */
+    }
+
+    .logo {
+        font-size: 1.2rem;       /* shrink the brand name if needed */
     }
 }
