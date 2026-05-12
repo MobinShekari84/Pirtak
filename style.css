@@ -519,21 +519,25 @@ html[dir="rtl"] .slider-arrow.next {
     .nav-links.open {
         right: 0;
     }
+    .kpi-grid {
+        grid-template-columns: 1fr;        
+        gap: 1.5rem;                       
+    }
 }
 
 /* tablet */
 
 @media (min-width: 885px) and (max-width: 1024px) {
     .nav-links {
-        gap: 0.8rem;               /* reduce space between items */
+        gap: 0.8rem;               
     }
 
     .nav-links a {
-        font-size: 0.7rem;       /* slightly smaller text */
-        padding: 0.5rem 0.3rem;  /* tighter clickable area */
+        font-size: 0.7rem;       
+        padding: 0.5rem 0.3rem;  
     }
 
     .logo {
-        font-size: 1.2rem;       /* shrink the brand name if needed */
+        font-size: 1.2rem;       
     }
 }
