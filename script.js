@@ -3,6 +3,16 @@ const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
 let curr = 0;
 
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('open');
+    });
+}
+
 function goTo(i) {
     slides.forEach(s => s.classList.remove('active'));
     dots.forEach(d => d.classList.remove('active'));
