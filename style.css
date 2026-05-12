@@ -494,13 +494,17 @@ html[dir="rtl"] .slider-arrow.next {
     .kpi-grid {
         grid-template-columns: 1fr 1fr;
     }
+    .logo {
+        order: 1;
+    }
     .hamburger {
+        order: 2;
         display: flex;
     }
     .nav-links {
         position: fixed;
-        right: auto;
-        left: -100%;
+        right: -100%;
+        left: auto;
         top: 0;
         width: 280px;
         height: 100vh;
@@ -508,11 +512,11 @@ html[dir="rtl"] .slider-arrow.next {
         flex-direction: column;
         padding: 80px 20px;
         gap: 10px;
-        transition: left 0.3s;
+        transition: right 0.3s;
         z-index: 1001;
         box-shadow: var(--shadow-xl);
     }
     .nav-links.open {
-        left: 0;
+        right: 0;
     }
 }
